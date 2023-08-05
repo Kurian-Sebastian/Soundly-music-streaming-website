@@ -1,0 +1,93 @@
+.mainroot {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 10px 20px;;
+    height: 70px;
+    color: var(--font-color);
+    background: var(--seconary-bg);
+    box-shadow:  5px 5px 10px var(--shadow-primary),
+                 -5px -5px 10px var(--shadow-secondary);
+}
+.navSearch {
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background: var(--bg-color);
+    box-shadow: inset 9px 9px 18px var(--shadow-primary),
+            inset -9px -9px 18px var(--shadow-secondary);
+}
+.navSearch:focus {
+    outline: none;
+}
+.navbar h1 {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar h1:hover {
+    cursor: pointer;
+}
+
+.bottomPlayer {
+    width: 100%;
+    height: 9%;
+    bottom: 0;
+    z-index: 99999;
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    align-items: center;
+    /*border-top: 1px solid black;*/
+box-shadow:  9px 9px 18px var(--shadow-primary),
+             -9px -9px 18px var(--shadow-secondary);
+    background: var(--seconary-bg);
+    padding: 50px 0; 
+}
+.controlsContainer {
+    display: flex;
+}
+.durationContainer {
+    width: 50%;
+}
+.durationTextContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.volumeContainer {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.content {
+    min-height: 90%;
+    height: 100%;
+    margin-top: 70px;
+    overflow-y: auto; 
+}
+.titleSection {
+    display: flex;
+    align-items: center;
+} 
+.titleSectionImage img {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.musicTitle {
+    font-weight: 800;
+}
+.artistName {
+    font-size: 14px;
+}

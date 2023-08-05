@@ -1,0 +1,67 @@
+.main{
+  background-image: url("/bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.main_content h2{
+  color: rgba(240, 248, 255, 0.719);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+.main_content h1{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+.main_content p{
+  color: aliceblue;
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.footer{
+  background-color: rgba(240, 248, 255, 0.295);
+  width: 98.1vw;
+  height: 30vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer h1{
+  font-size: 40px;
+  margin-top: 110px;
+  color: rgb(255, 208, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer h2{
+  font-size: 40px;
+  margin-top: 110px;
+  color: rgb(255, 208, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+  display:flex;
+  flex-direction: column;
+  padding:80px;
+  justify-content: space-between;
+}
+.contact a{
+  text-decoration: none;
+  color: #ff7777;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
