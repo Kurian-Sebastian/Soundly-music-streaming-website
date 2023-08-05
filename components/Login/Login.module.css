@@ -1,0 +1,19 @@
+.main_component{
+    width: 19vw;
+    height: 35vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    padding-left: 100px; 
+    margin-left: 37vw;
+    margin-top: 7vw;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #b5b5b5;
+}
+
+.main_component h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3vh;
+    color: rgb(99, 99, 99);
+}
